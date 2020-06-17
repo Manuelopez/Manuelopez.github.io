@@ -137,38 +137,10 @@ h3 {
   .section__title {
     text-align: center;
   }
-
-  .my-work {
-    margin-left: 210px;
-    margin-right: 210px;
-  }
 }
-@media only screen and (max-width: 900px) {
-  body {
-    margin-left: 3vw;
-    margin-right: 3vw;
-  }
+@media only screen and (max-width: 1522px) {
   .section__title {
     text-align: center;
-  }
-
-  .my-work {
-    margin-left: 94px;
-    margin-right: 94px;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  body {
-    margin-left: 3vw;
-    margin-right: 3vw;
-  }
-  .section__title {
-    text-align: center;
-  }
-
-  .my-work {
-    margin: 0;
   }
 }
 
@@ -183,7 +155,7 @@ h3 {
 .portfolio div {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .portfolio__item {
