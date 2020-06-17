@@ -34,7 +34,7 @@
       <div class="section__subtitle section__subtitle--intro">
         <div class="h1">
           <div>
-            Langauges
+            Languages
             <ul class="skill-item">
               <li>TypeScript</li>
               <li>JavaScript</li>
@@ -44,7 +44,7 @@
             </ul>
           </div>
           <div>
-            Frameworks/Librearies
+            Frameworks
             <ul class="skill-item">
               <li>React</li>
               <li>Redux</li>
@@ -54,7 +54,7 @@
         </div>
         <div class="h2">
           <div>
-            Tools/Plataforms
+            Tools
             <ul class="skill-item">
               <li>GraphQL</li>
               <li>Heroku</li>
@@ -68,12 +68,12 @@
           </div>
 
           <div>
-            Methododologies
+            Methodologies
             <ul class="skill-item">
-              <li>Functional Programing</li>
+              <li>Functional Programming</li>
               <li>Unit Testing</li>
               <li>Integration Testing</li>
-              <li>Responseive Web Desing</li>
+              <li>Responsive Web Design</li>
             </ul>
           </div>
         </div>
@@ -87,62 +87,133 @@
       <div class="portfolio">
         <!-- Portfolio item 01 -->
         <div>
-          <a
-            target="_blank"
-            href="http://mark-drive.herokuapp.com/home.html"
-            class="portfolio__item"
-          >
-            <img src="img/mark2.png" alt="Mark-Drive" class="portfolio__img" />
-          </a>
+          <div class="portfolio__item">
+            <a target="_blank" href="http://mark-drive.herokuapp.com/home.html">
+              Mark Drive
+              <div class="img__wrap">
+                <img src="img/mark2.png" alt="Mark-Drive" class="portfolio__img" />
+                <div class="img__description_layer">
+                  <p class="img__description">
+                    Mark Drive is a collaborative editor based on CRDT sequence to achieve a
+                    convergent document across all users.<br />
+                    Users can create slides, software diagrams and, math formulas. <br />
+                  </p>
+                </div>
+              </div>
+            </a>
+            <div class="portfolioFoot">
+              <a target="_blank" href="https://github.com/Manuelopez/Mark-Drive"
+                >Check out code <i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
 
           <!-- Portfolio item 02 -->
-          <a
-            target="_blank"
-            href="https://github.com/Manuelopez/Sign-Language-Translator"
-            class="portfolio__item"
-          >
-            <img
-              target="_blank"
-              src="img/handpose.png"
-              alt="sing-language translator"
-              class="portfolio__img"
-            />
-          </a>
+          <div class="portfolio__item">
+            <a target="_blank" href="https://github.com/Manuelopez/Sign-Language-Translator">
+              Sign Language to Text
+              <div class="img__wrap">
+                <img src="img/handpose.png" alt="handpose" class="portfolio__img" />
+                <div class="img__description_layer">
+                  <p class="img__description">
+                    Based on ml5js, p5js and TensorFlow HandPose this app can detect the sign done
+                    by the user and print out the the text.<br />
+                    Model was trained with the American sign language
+                  </p>
+                </div>
+              </div>
+            </a>
+            <div class="portfolioFoot">
+              <a target="_blank" href="https://github.com/Manuelopez/Sign-Language-Translator"
+                >Check out code <i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
         </div>
+
         <div>
           <!-- Portfolio item 03 -->
-          <a target="_blank" href="https://calc-solar-power.herokuapp.com/" class="portfolio__item">
-            <img src="img/solarplant.png" alt="some pick" class="portfolio__img" />
-          </a>
+          <div class="portfolio__item">
+            <a target="_blank" href="https://calc-solar-power.herokuapp.com/">
+              Solar Pant Production
+              <div class="img__wrap">
+                <img src="img/solarplant.png" alt="Solar Plant" class="portfolio__img" />
+                <div class="img__description_layer">
+                  <p class="img__description">
+                    Based on Hottel's Clear Day model this app can predict the generation of a solar
+                    pant. <br />
+                    Added some corrections factor like a loss factor and a cloud forecast we can
+                    remove error and close to real world values.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <div class="portfolioFoot">
+              <a target="_blank" href="https://github.com/Manuelopez/Solar-Pant-Calc"
+                >Check out code <i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
 
           <!-- Portfolio item 04 -->
-          <a
-            target="_blank"
-            href="https://cell-automata-app.herokuapp.com/"
-            class="portfolio__item"
-          >
-            <img src="img/cellautomata.png" alt="some pick" class="portfolio__img" />
-          </a>
+          <div class="portfolio__item">
+            <a target="_blank" href="https://cell-automata-app.herokuapp.com/">
+              Cell Automata visualization
+              <div class="img__wrap">
+                <img src="img/cellautomata.png" alt="Cell Automata" class="portfolio__img" />
+                <div class="img__description_layer">
+                  <p class="img__description">
+                    This app shows how a Cell Automata changes for each generation.</br> Cell Automata's
+                    included: </br> Game of Life </br> Langton's Ant </br> Brian's Brain.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <div class="portfolioFoot">
+              <a target="_blank" href="https://github.com/Manuelopez/cellAutomataApp"
+                >Check out code <i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
         </div>
 
         <div>
           <!-- Portfolio item 05 -->
-          <a
-            target="_blank"
-            href="https://manuelopez-chat-app.herokuapp.com/"
-            class="portfolio__item"
-          >
-            <img src="img/chatapp.png" alt="some pick" class="portfolio__img" />
-          </a>
+          <div class="portfolio__item">
+            <a target="_blank" href="https://manuelopez-chat-app.herokuapp.com/">
+              Real time Chat Aplication
+              <div class="img__wrap">
+                <img src="img/chatapp.png" alt="Chat App" class="portfolio__img" />
+                <div class="img__description_layer">
+                  <p class="img__description">Chat application using Socket.IO to achieve real time communication.</p>
+                </div>
+              </div>
+            </a>
+            <div class="portfolioFoot">
+              <a target="_blank" href="https://github.com/Manuelopez/Chat-app"
+                >Check out code <i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
 
           <!-- Portfolio item 06 -->
-          <a
-            target="_blank"
-            href="https://github.com/Manuelopez/TCP-UDP-server--client"
-            class="portfolio__item"
-          >
-            <img src="img/tcpserver.png" alt="some pick" class="portfolio__img" />
-          </a>
+          <div class="portfolio__item">
+            <a target="_blank" href="https://github.com/Manuelopez/TCP-UDP-server--client">
+              TCP/UDP Arithmetic Server
+              <div class="img__wrap">
+                <img src="img/tcpserver.png" alt="TCP/UDP Server" class="portfolio__img" />
+                <div class="img__description_layer">
+                  <p class="img__description">Implementation of the TCP and UDP client server protocol. <br> 
+                    Written in C.</p>
+                </div>
+              </div>
+            </a>
+            <div class="portfolioFoot">
+              <a target="_blank" href="https://github.com/Manuelopez/TCP-UDP-server--client"
+                >Check out code <i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -155,7 +226,7 @@
         <ul class="social-list">
           <li class="social-list__item">
             <a target="_blank" class="social-list__link" href="https://github.com/Manuelopez">
-              <i class="fab fa-github"></i>
+              <i class="fab fa-github foot"></i>
             </a>
           </li>
           <li class="social-list__item">
@@ -164,7 +235,7 @@
               class="social-list__link"
               href="https://www.linkedin.com/in/manuel-arturo-lopez-perez-9ba89a160/"
             >
-              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-linkedin foot"></i>
             </a>
           </li>
           <li class="social-list__item">
@@ -178,12 +249,12 @@
           </li>
           <li class="social-list__item">
             <a target="_blank" class="social-list__link" href="mailto:mp.arturolopez@gmail.com">
-              <i class="fa fa-envelope"></i>
+              <i class="fa fa-envelope foot"></i>
             </a>
           </li>
           <li class="social-list__item">
             <a target="_blank" class="social-list__link" href="tel://9059229717">
-              <i class="fa fa-phone"></i>
+              <i class="fa fa-phone foot"></i>
             </a>
           </li>
         </ul>
