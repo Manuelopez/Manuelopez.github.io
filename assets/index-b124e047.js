@@ -55,9 +55,9 @@ Error generating stack: `+i.message+`
 • implementd a syntax hi-lighter <br/>
 
 `,skills:[J.go,nn.react]},{name:"Chip-8 emulator",link:"https://github.com/Manuelopez/chip-8",showLink:"github.com/Manuelopez/chip-8",information:`
-• Build a chip-8 emulator 
-• Implemented all the Operation codes  
-• Made confugurations options for diffrent iterations of the chip 
+• Build a chip-8 emulator <br/>
+• Implemented all the Operation codes  <br/>
+• Made confugurations options for diffrent iterations of the chip <br/> 
 `,skills:[J.go]},{name:"Interperter",link:"https://github.com/Manuelopez/Iterpreter",showLink:"github.com/Manuelopez/Iterpreter",information:`
 • Build Interperter for a made up language <br/>
 • Create a REPL for the lanague <br/>
